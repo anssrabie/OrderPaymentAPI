@@ -146,8 +146,10 @@ This project uses the **Strategy Pattern** for payment gateways, allowing easy i
        public function processPayment(float $amount): array
        {
            return [
-               'payment_id' => 'stripe_' . uniqid(),
-               'status' => 'pending',
+            'status' => PaymentStatus::Pending->value,
+            'payment_id' => 'stripe_' . uniqid(),
+            'message' => 'Payment processed via Stripe',
+            'method' => PaymentMethod::CreditCard->value,
            ];
        }
    }
