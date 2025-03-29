@@ -83,12 +83,12 @@ The goal of this project is to build a **Laravel-based API** for managing orders
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/order-payment-api.git
+   git clone https://github.com/your-repo/OrderPaymentAPI.git
    ```
 
 2. **Navigate into the project folder**:
    ```bash
-   cd order-payment-api
+   cd OrderPaymentAPI
    ```
 
 3. **Install dependencies**:
